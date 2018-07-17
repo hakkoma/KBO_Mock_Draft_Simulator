@@ -5,9 +5,12 @@ A simulated draft in Korea Baseball League in 2018
 
 ## Raw data
 
-* 
+* [2017hitter.csv](#2017hitter.csv) 
+* [2017pitcher.csv](#2017pitcher.csv) 
+* [2017notqualified_hitter.csv](#2017notqualified_hitter.csv) 
+* [2017notqualified_pitcher.csv](#2017notqualified_pitcher.csv) 
 
-* source : Korean highschool baseball league in 2017 on Korea Baseball Softball Association <br>
+** source : Korean highschool baseball league in 2017 on Korea Baseball Softball Association <br>
 http://www.korea-baseball.com/record/record/team_record?kind_cd=31&lig_idx=&group_no=&part_no=&season=2018&club_idx=190&player_type=2&group_part_idx=
 
 ## Relevant references 
