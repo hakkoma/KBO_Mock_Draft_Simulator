@@ -1,0 +1,60 @@
+# KBO_Mock_Draft
+A simulated draft in Korea Baseball League in 2018
+
+아이디어 : 2019 MLB 모의 신인 드래프트
+
+<스카우트 기준 지표>
+* 80 20 Rule(항목별평가) 
+http://baseballgen.com/78 http://www.mbcsportsplus.com/news/?mode=view&cate=2&b_idx=99977638.000#07D0
+https://www.fangraphs.com/blogs/scouting-explained-the-20-80-scouting-scale/
+* OFP(종합평가)
+https://legacy.baseballprospectus.com/glossary/index.php?search=OFP
+https://www.baseballamerica.com/draft-history/mlb-draft-database/
+* 스카우터 인터뷰 글
+http://www.gqkorea.co.kr/2016/06/05/%EB%A9%94%EC%9D%B4%EC%A0%80%EB%A6%AC%EA%B7%B8%EB%A5%BC-%EC%95%84%EC%84%B8%EC%9A%94-1/
+
+<Raw data>
+* MLB 스카우팅 데이터
+https://www.baseballamerica.com/statistics/
+https://www.sports-reference.com/blog/2018/06/2018-mlb-draft-tools/
+https://legacy.baseballprospectus.com/sortable/index.php?cid=1920408
+* MLB 스카우팅 리포트
+https://collection.baseballhall.org/PASTIME/scouting-reports?f%5B0%5D=mods_originInfo_dateCreated_dt%3A%5B2010-01-01T00%3A00%3A00Z%20TO%202019-01-01T00%3A00%3A00Z%5D
+
+
+* 야구관련 데이터모델링기법들
+http://www.baseballdatascience.com/
+
+고교야구 규정타석 * 이닝 계산
+  1) 규정타석 : 팀게임수 * 0.8 * 3(고교야구 시상 기준)
+  2) 규정이닝 : 팀게임수 * 0.8 (퓨처스리그 기준)
+https://sites.google.com/site/eveningglow17/record/yagu-yong-eo-jeongli
+
+투수 war
+http://suxism.com/?p=3467
+타자 war
+http://suxism.com/?p=225
+
+2017년 고교야구선수 세부지표
+투수
+http://biz.heraldcorp.com/sports/view.php?ud=201710121554026756813_1
+타자
+http://biz.heraldcorp.com/sports/view.php?ud=201710181552357377512_1 
+
+타자 기록 지표 ( UEQR과 WOBA 차이)
+https://blog.naver.com/ianthorpe/220830724053
+UEQR
+https://namu.wiki/w/UEQR
+EQA
+https://namu.wiki/w/eqa
+
+<기타 자료>
+* MLB 기록 사이트 정리
+https://bleacherreport.com/articles/630978-lies-damn-lies-and-statistics-top-baseball-sites-for-the-stats-lover
+1. http://www.retrosheet.org/
+2. http://www.seanlahman.com/baseball-archive/statistics/
+3. https://www.baseball-reference.com/
+* KBO 기록 사이트 정리
+https://m.blog.naver.com/PostView.nhn?blogId=ericasdf&logNo=220926686706&proxyReferer=https%3A%2F%2Fwww.google.com%2F 
+1. http://www.statiz.co.kr/main.php 여기가 SBMR 관련 통계자료가 많음)
+2. http://www.kbreport.com/main
