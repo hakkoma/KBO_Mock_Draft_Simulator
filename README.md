@@ -4,10 +4,13 @@ A simulated draft in Korea Baseball League in 2018
 아이디어 : 2019 MLB 모의 신인 드래프트
 
 ## Raw data
-* Korean highschool baseball league in 2017 on Korea Baseball Softball Association <br>
+
+* 
+
+* source : Korean highschool baseball league in 2017 on Korea Baseball Softball Association <br>
 http://www.korea-baseball.com/record/record/team_record?kind_cd=31&lig_idx=&group_no=&part_no=&season=2018&club_idx=190&player_type=2&group_part_idx=
 
-## 관련 자료
+## Relevant references 
 
 * 고교야구 규정타석 * 이닝 계산
   1) 규정타석 : 팀게임수 * 0.8 * 3(고교야구 시상 기준)<br>
@@ -43,7 +46,7 @@ https://www.baseballamerica.com/draft-history/mlb-draft-database/
   3) 스카우터 인터뷰 글<br>
 http://www.gqkorea.co.kr/2016/06/05/%EB%A9%94%EC%9D%B4%EC%A0%80%EB%A6%AC%EA%B7%B8%EB%A5%BC-%EC%95%84%EC%84%B8%EC%9A%94-1/
 
-## 기타 자료
+## etc
 
 * 야구관련 데이터모델링기법들<br>
 http://www.baseballdatascience.com/
