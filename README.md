@@ -32,6 +32,11 @@ http://biz.heraldcorp.com/sports/view.php?ud=201710121554026756813_1
   2) 타자
 http://biz.heraldcorp.com/sports/view.php?ud=201710181552357377512_1 
 
+
+* 투수 기록 주요 지표 
+  1) cFIP http://suxism.com/?p=1956<br>
+  2) FIP http://dontyou.tistory.com/42<br>
+
 * 타자 기록 지표 ( UEQR과 WOBA 차이)<br>
 https://blog.naver.com/ianthorpe/220830724053<br>
   1) UEQR<br>
