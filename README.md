@@ -80,38 +80,39 @@ https://collection.baseballhall.org/PASTIME/scouting-reports?f%5B0%5D=mods_origi
 * NFL Draft project<br>
 https://seanjtaylor.github.io/learning-the-draft/
 
-* 타자 기록 지표 선정<br> 
+
+### 타자 기록 지표 선정
 
 
 
-* 투수 기록 지표 선정<br> cFIP
- - 선정이유<br>
+### 투수 기록 지표 선정 (cFIP)
+ * **선정이유**<br>
   
-  대형신인의 경우 즉시 전력으로 1군 데뷔가 가능하지만<br>
-  현재 투수 드래프트 시장의 경우, 구단 내 육성후 데뷔 의 경우가 대다수.<br>
+   대형신인의 경우 즉시 전력으로 1군 데뷔가 가능하지만<br>
+   현재 투수 드래프트 시장의 경우, 구단 내 육성후 데뷔 의 경우가 대다수.<br>
   
-  타자의 경우 현재 이정후, 강백호 등 1-2년차 신인의 주전의 경우가 있음<br>
+   타자의 경우 현재 이정후, 강백호 등 1-2년차 신인의 주전의 경우가 있음<br>
 
-  투수 드래프트의 경우 향후 발전 가능성 및 장기적 계획의 경우가 높음<br>
+   투수 드래프트의 경우 향후 발전 가능성 및 장기적 계획의 경우가 높음<br>
 
-  cFIP 의 경우 FIP 와 동일 하지만 구장, 상대 타자의 성적,<br>
-  포수의 능력 등의 다양한 변수가 보정되어 경기수가 적은<br>
-  드래프트 선수들의 경우에 적합함.<br>
+   cFIP 의 경우 FIP 와 동일 하지만 구장, 상대 타자의 성적,<br>
+   포수의 능력 등의 다양한 변수가 보정되어 경기수가 적은<br>
+   드래프트 선수들의 경우에 적합함.<br>
 
 
-  따라서 현재 기준 예측성 (FIP) 가 아닌, 장기적 예측이 가능한<br>
-  cFIP 지표가 타당<br>
+   따라서 현재 기준 예측성 (FIP) 가 아닌, 장기적 예측이 가능한<br>
+   **cFIP** 지표가 타당<br>
 
-  Reference<br>
+   Reference<br>
 
-  KBO 신인 투수 상황<br>
-  http://www.sportsseoul.com/news/read/652127
-  MLB 드래프트 신인 상황<br>
-  http://www.mbcsportsplus.com/news/?mode=view&cate=2&b_idx=99939077.000
-  KBO 투수 연봉 영향 요인<br>
-  http://dx.doi.org/10.7465/jkdi.2017.28.2.317
-  cFIP 와 FIP 의 비교<br>
-  https://www.fangraphs.com/tht/fip-in-context/
+   KBO 신인 투수 상황<br>
+   http://www.sportsseoul.com/news/read/652127
+   MLB 드래프트 신인 상황<br>
+   http://www.mbcsportsplus.com/news/?mode=view&cate=2&b_idx=99939077.000
+   KBO 투수 연봉 영향 요인<br>
+   http://dx.doi.org/10.7465/jkdi.2017.28.2.317
+   cFIP 와 FIP 의 비교<br>
+   https://www.fangraphs.com/tht/fip-in-context/
 
 
 
