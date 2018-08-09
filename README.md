@@ -81,7 +81,19 @@ https://collection.baseballhall.org/PASTIME/scouting-reports?f%5B0%5D=mods_origi
 https://seanjtaylor.github.io/learning-the-draft/
 
 
-### 타자 기록 지표 선정
+### 타자 기록 지표 선정 (UEQR)
+* **선정이유**<br>
+
+### 타자 기록 지표 선정 변경 (UEQR -> WAR) 09.Aug.2018 Update
+* **변경이유**<br>
+    현재 고교야구의 데이터 상으로 UEQR 공식의 변수가 부족한 상황.<br>
+    UEQR이 KBO 지표에 가장 통용되는 변수이기는 하나, <br>
+    현재 보유한 데이터 로는 고교야구의 UEQR을 구할수 없음.<br>
+
+    또한 현재 드래프트 타자 지표의 경우 WAR의 가중치가 높음. <br>
+
+    따라서, 현상황에 맞추어 UEQR이 아닌 WAR로 변경 결정.<br>
+
 
 
 
@@ -113,6 +125,19 @@ https://seanjtaylor.github.io/learning-the-draft/
    http://dx.doi.org/10.7465/jkdi.2017.28.2.317
    cFIP 와 FIP 의 비교<br>
    https://www.fangraphs.com/tht/fip-in-context/
+
+### 투수 기록 지표 선정 변겅 (cFIP -> FIP) 09.Aug.2018 Update
+ * **변경이유**<br>
+   cFIP의 경우 FIP 에서 context 가 추가된 상황, 하지만 현재 <br>
+   고교야구의 경우 각 구장별 상황, 상대 타자의 지표 등 cFIP에 필요한<br> 
+   다양한 환경 Variable 들의 기록이 부재한 상황<br>
+
+   따라서, FIP로 지표 변경.<br>
+
+   이로 인한 해결책으로 WAR의 중요성을 높여 투수와 타자 지표를 <br>
+   일체화 시켜 비교 하는 것으로 결정. <br> 
+
+
 
 
 
