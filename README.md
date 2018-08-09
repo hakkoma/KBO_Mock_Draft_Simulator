@@ -84,16 +84,17 @@ https://seanjtaylor.github.io/learning-the-draft/
 ### 타자 기록 지표 선정 (UEQR)
 * **선정이유**<br>
 
-### 타자 기록 지표 선정 변경 (UEQR -> WAR) 09.Aug.2018 Update
+### 타자 기록 지표 선정 변경 (UEQR -> wOBA) 09.Aug.2018 Update
 * **변경이유**<br>
     현재 고교야구의 데이터 상으로 UEQR 공식의 변수가 부족한 상황.<br>
     UEQR이 KBO 지표에 가장 통용되는 변수이기는 하나, <br>
     현재 보유한 데이터 로는 고교야구의 UEQR을 구할수 없음.<br>
 
-    또한 현재 드래프트 타자 지표의 경우 WAR의 가중치가 높음. <br>
+    따라서 현상황에 고려한 지표 변경이 필요.<br>
+    지표 wOBA로 변경. <br>
 
-    따라서, 현상황에 맞추어 UEQR이 아닌 WAR로 변경 결정.<br>
-
+    지표 변경으로 인한 개선 사항으로 WAR을 이용한 타자 투수 지표 일체화 결정.<br>
+    
 
 
 
