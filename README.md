@@ -81,7 +81,33 @@ https://collection.baseballhall.org/PASTIME/scouting-reports?f%5B0%5D=mods_origi
 https://seanjtaylor.github.io/learning-the-draft/
 
 
-### 타자 기록 지표 선정
+### 타자 기록 지표 선정 (UEQR)
+* **선정이유**<br>
+    UEQR 혹은 Eqa 는 타자 지표중 안타 이외에도 볼넷, 장타 등의 보정이 포함된 지표임.<br>
+    이러한 factor들로 인해 타율과 비슷하여 타율 보정 지표라고도 불림.<br>
+    현재 KBO 리그 에서도 대표적으로 쓰이는 지표이며, 상대값에 대한 보정이<br>
+    KBO 리그 특징중에 하나인 상대성을 보정하여 시즌별 값의 신빙성이 높음 <br>
+
+    고교 타자의 지표의 경우 3학년 총 타석수가 기록되어 상대적 보정이 필요함 <br>
+    이로인해 시즌별 타격이 보정된 지표인 
+    UEQR 이 적합. <br>
+
+    Referecen <br>
+    http://kini.kr/230
+    https://xe.rigvedawiki.net/w/%EC%95%BC%EA%B5%AC%EC%9D%98%20%EA%B8%B0%EB%A1%9D%20%EA%B3%84%EC%82%B0%EB%B2%95
+    http://birdsnest.tistory.com/73
+
+
+### 타자 기록 지표 선정 변경 (UEQR -> wOBA) 09.Aug.2018 Update
+* **변경이유**<br>
+    현재 고교야구의 데이터 상으로 UEQR 공식의 변수가 부족한 상황.<br>
+    UEQR이 KBO 지표에 가장 통용되는 변수이기는 하나, <br>
+    현재 보유한 데이터 로는 고교야구의 UEQR을 구할수 없음.<br>
+
+    따라서 현상황에 고려한 지표 변경이 필요.<br>
+    지표 wOBA로 변경. <br>
+
+    지표 변경으로 인한 개선 사항으로 WAR을 이용한 타자 투수 지표 일체화 결정.<br>
 
 
 
@@ -114,6 +140,20 @@ https://seanjtaylor.github.io/learning-the-draft/
    cFIP 와 FIP 의 비교<br>
    https://www.fangraphs.com/tht/fip-in-context/
 
+### 투수 기록 지표 선정 변겅 (cFIP -> FIP) 09.Aug.2018 Update
+ * **변경이유**<br>
+   cFIP의 경우 FIP 에서 context 가 추가된 상황, 하지만 현재 <br>
+   고교야구의 경우 각 구장별 상황, 상대 타자의 지표 등 cFIP에 필요한<br> 
+   다양한 환경 Variable 들의 기록이 부재한 상황<br>
+
+   따라서, FIP로 지표 변경.<br>
+
+   이로 인한 해결책으로 WAR의 중요성을 높여 투수와 타자 지표를 <br>
+   일체화 시켜 비교 하는 것으로 결정. <br> 
+
+## Regression source
+https://www.geeksforgeeks.org/linear-regression-python-implementation/
+https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c928425168f9
 
 
 
