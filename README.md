@@ -83,6 +83,20 @@ https://seanjtaylor.github.io/learning-the-draft/
 
 ### 타자 기록 지표 선정 (UEQR)
 * **선정이유**<br>
+    UEQR 혹은 Eqa 는 타자 지표중 안타 이외에도 볼넷, 장타 등의 보정이 포함된 지표임.<br>
+    이러한 factor들로 인해 타율과 비슷하여 타율 보정 지표라고도 불림.<br>
+    현재 KBO 리그 에서도 대표적으로 쓰이는 지표이며, 상대값에 대한 보정이<br>
+    KBO 리그 특징중에 하나인 상대성을 보정하여 시즌별 값의 신빙성이 높음 <br>
+
+    고교 타자의 지표의 경우 3학년 총 타석수가 기록되어 상대적 보정이 필요함 <br>
+    이로인해 시즌별 타격이 보정된 지표인 
+    UEQR 이 적합. <br>
+
+    Referecen <br>
+    http://kini.kr/230
+    https://xe.rigvedawiki.net/w/%EC%95%BC%EA%B5%AC%EC%9D%98%20%EA%B8%B0%EB%A1%9D%20%EA%B3%84%EC%82%B0%EB%B2%95
+    http://birdsnest.tistory.com/73
+
 
 ### 타자 기록 지표 선정 변경 (UEQR -> wOBA) 09.Aug.2018 Update
 * **변경이유**<br>
@@ -94,7 +108,6 @@ https://seanjtaylor.github.io/learning-the-draft/
     지표 wOBA로 변경. <br>
 
     지표 변경으로 인한 개선 사항으로 WAR을 이용한 타자 투수 지표 일체화 결정.<br>
-    
 
 
 
@@ -138,8 +151,9 @@ https://seanjtaylor.github.io/learning-the-draft/
    이로 인한 해결책으로 WAR의 중요성을 높여 투수와 타자 지표를 <br>
    일체화 시켜 비교 하는 것으로 결정. <br> 
 
-
-
+## Regression source
+https://www.geeksforgeeks.org/linear-regression-python-implementation/
+https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c928425168f9
 
 
 
