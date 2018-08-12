@@ -108,6 +108,8 @@ https://seanjtaylor.github.io/learning-the-draft/
     지표 wOBA로 변경. <br>
 
     지표 변경으로 인한 개선 사항으로 WAR을 이용한 타자 투수 지표 일체화 결정.<br>
+   ** WAR 참고 ** <br>
+   https://namu.wiki/w/WAR
 
 
 
