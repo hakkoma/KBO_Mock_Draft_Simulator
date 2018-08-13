@@ -110,7 +110,9 @@ https://seanjtaylor.github.io/learning-the-draft/
     지표 변경으로 인한 개선 사항으로 WAR을 이용한 타자 투수 지표 일체화 결정.<br>
    
    ** WAR 참고 ** <br>
-   https://namu.wiki/w/WAR
+   https://namu.wiki/w/WAR <br>
+   https://www.reddit.com/r/baseball/comments/3tdpvf/is_it_fair_to_compare_a_pitchers_war_vs_a/ <br>
+   https://www.fangraphs.com/blogs/a-discussion-about-improving-war/ <br>
 
 
 
