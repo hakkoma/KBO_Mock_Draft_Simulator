@@ -160,6 +160,33 @@ https://seanjtaylor.github.io/learning-the-draft/
 https://www.geeksforgeeks.org/linear-regression-python-implementation/ <br>
 https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c928425168f9 <br>
 
+## Assumptions
+ * **가정 항목** <br>
+   **선수**<br>
+   드래프트의 경우 고교 신인, 대학 신인, 해외 드래프트 신청 선수로 이루어 지나, <br>
+   현재 데이터의 경우, 대학 리그 선수의 데이터가 없음. <br>
+   따라서 TOP30 의 선수는 고교 졸업 선수 한정으로 제한 한다.<br>
+   <br>
+   **드래프트**<br>
+   드래프트 방식의 경우, 각 구단이 전년도 성적순으로 지명을 하며, <br>
+   1차 연고지 지명 후, 2차 라운드 지명으로 이어서 진행한다. <br>
+   현재 보유한 데이터는, 각 구단의 포지션 선호도, 투타 선호도를 나타낼수 없다. <br>
+   따라서 실제 2018 드래프트의 자료를 비교하여 계산된 WAR에 대입한 결과로 대채한다. <br>
+   <br>
+   **WAR**<br>
+   WAR의 경우 fWAR (fangraph WAR)를 기준으로 하며 투수, 타자의 WAR을 통합하여 비교한다. <br>
+   허나 실제 WAR의 값의 경우, 투수의 이닝 으로 인해 타자의 WAR이 상대적으로 투수에 비해 높다<br>
+   또한 타자의 경우 포지션별 보정또한 존재 하며 투수 또한 상대타자, 수비보정이 존재 한다.<br>
+   허나, 현재 데이터 상으로 보정이 불가능 하며, 파크 팩터의 경우또한 KBO의 경우, <br> 
+   잠실 구장을 제외한 나머지 구장은 크게 관여 하지 않아 대부분 1로 대체한다. <br>
+   또한 고교 야구의 경우, 파크 팩터의 간섭의 더욱 적어 위와 같이 1로 대체한다. <br>
+   *관련 자료* <br> 
+   http://old.statiz.co.kr/glossary.php?opt=1&sopt=2<br>
+   https://frhyme.github.io/baseball/baseball-parkfactor/<br>
+   <br>
+    
+
+
 
 
 
