@@ -170,11 +170,13 @@ https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c
    **드래프트**<br>
    드래프트 방식의 경우, 각 구단이 전년도 성적순으로 지명을 하며, <br>
    1차 연고지 지명 후, 2차 라운드 지명으로 이어서 진행한다. <br>
+   2017년 드래프트 부터, 기존의 스네이크 방식(혹은 ㄹ자 방식)이 아닌 <br>
+   모든 라운드를 전 시즌 순위의 역순으로 지명하는 Z형 방식으로 변경되었다. <br>
    현재 보유한 데이터는, 각 구단의 포지션 선호도, 투타 선호도를 나타낼수 없다. <br>
    따라서 실제 2018 드래프트의 자료를 비교하여 계산된 WAR에 대입한 결과로 대채한다. <br>
    <br>
    **WAR**<br>
-   WAR의 경우 fWAR (fangraph WAR)를 기준으로 하며 투수, 타자의 WAR을 통합하여 비교한다. <br>
+   WAR의 경우 fWAR (fangraph WAR)를 기준으로 하며 타자는 Statiz 를 기준으로 하여 각 WAR을 통합하여 비교한다. <br>
    허나 실제 WAR의 값의 경우, 투수의 이닝 으로 인해 타자의 WAR이 상대적으로 투수에 비해 높다<br>
    또한 타자의 경우 포지션별 보정또한 존재 하며 투수 또한 상대타자, 수비보정이 존재 한다.<br>
    허나, 현재 데이터 상으로 보정이 불가능 하며, 파크 팩터의 경우또한 KBO의 경우, <br> 
@@ -184,7 +186,7 @@ https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c
    http://old.statiz.co.kr/glossary.php?opt=1&sopt=2<br>
    https://frhyme.github.io/baseball/baseball-parkfactor/<br>
    <br>
-    
+
 
 
 
