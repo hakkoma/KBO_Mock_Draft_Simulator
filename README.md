@@ -194,14 +194,12 @@ https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c
      카운트 후 퍼센트로 전개<br>
      Accuracy 측정 가능, 그후, 기준 지표비교 가능<br>
      ex)fWAR 혹은 wOBA 와 같이 비교가능.<br>
-   <br>
    2) Boolean 값 매칭 graph
      각각의 데이터 매칭후 True or False 혹은 0 or 1 으로 <br>
      나타내어 visualise 함.<br>
      **update 필요**<br>
      파이 그래프 매칭 그래프화 후 % 계산<br>
      ![Graph Example][graph.jpg]
-   <br>
    3) 매칭 그래프
      각각의 데이터 매칭후 매칭 구분 <br>
      ex) 완벽일치<br>
@@ -209,7 +207,7 @@ https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c
      따라서 총 3개의 데이터 구분 생성.<br>
      조금더 구체적인 비교 가능.<br>
      ![Graph Example][graph2.jpg]
-     
+
 
 
 
