@@ -200,8 +200,7 @@ https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c
      **update 필요**<br>
      파이 그래프 매칭 그래프화 후 % 계산<br>
      ![graph](https://user-images.githubusercontent.com/37870412/44184786-33476d80-a143-11e8-8595-fcdbcd18e220.JPG)<br>
-     *파이 그래프 예제 1*<br>  
-     <br>
+     *파이 그래프 예제 1*<br>
    3) 매칭 그래프
      각각의 데이터 매칭후 매칭 구분 <br>
      ex) 완벽일치<br>
