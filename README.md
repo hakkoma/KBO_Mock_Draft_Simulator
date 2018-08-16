@@ -199,14 +199,14 @@ https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c
      나타내어 visualise 함.<br>
      **update 필요**<br>
      파이 그래프 매칭 그래프화 후 % 계산<br>
-     ![graph](https://user-images.githubusercontent.com/37870412/44184786-33476d80-a143-11e8-8595-fcdbcd18e220.JPG)
+     ![graph](https://user-images.githubusercontent.com/37870412/44184786-33476d80-a143-11e8-8595-fcdbcd18e220.JPG, width = 300)
    3) 매칭 그래프
      각각의 데이터 매칭후 매칭 구분 <br>
      ex) 완벽일치<br>
          불일치 (순서 불일치, 실제 데이터 없음)
      따라서 총 3개의 데이터 구분 생성.<br>
      조금더 구체적인 비교 가능.<br>
-     ![Graph Example][graph2.jpg]
+     ![graph2](https://user-images.githubusercontent.com/37870412/44184800-4b1ef180-a143-11e8-825d-361d77bac8ca.JPG,width = 300)
 
 
 
