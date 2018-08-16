@@ -187,6 +187,35 @@ https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c
    https://frhyme.github.io/baseball/baseball-parkfactor/<br>
    <br>
 
+## 리포트 섹션
+ * **비교 방법**<br>
+   1) For matching 이용<br>
+     For 문을 이용하여 실제 데이터(드래프트 결과)의 이름, 구해진 데이터(Project 결과)의 이름을 매칭<br>
+     카운트 후 퍼센트로 전개<br>
+     Accuracy 측정 가능, 그후, 기준 지표비교 가능<br>
+     ex)fWAR 혹은 wOBA 와 같이 비교가능.<br>
+   <br>
+   2) Boolean 값 매칭 graph
+     각각의 데이터 매칭후 True or False 혹은 0 or 1 으로 <br>
+     나타내어 visualise 함.<br>
+     **update 필요**<br>
+     파이 그래프 매칭 그래프화 후 % 계산<br>
+     ![Graph Example][graph.jpg]
+   <br>
+   3) 매칭 그래프
+     각각의 데이터 매칭후 매칭 구분 <br>
+     ex) 완벽일치<br>
+         불일치 (순서 불일치, 실제 데이터 없음)
+     따라서 총 3개의 데이터 구분 생성.<br>
+     조금더 구체적인 비교 가능.<br>
+     ![Graph Example][graph2.jpg]
+     
+
+
+
+
+
+
 
 
 
