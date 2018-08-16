@@ -199,7 +199,7 @@ https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c
      나타내어 visualise 함.<br>
      **update 필요**<br>
      파이 그래프 매칭 그래프화 후 % 계산<br>
-     ![Graph Example][graph.jpg]
+     ![graph](https://user-images.githubusercontent.com/37870412/44184786-33476d80-a143-11e8-8595-fcdbcd18e220.JPG)
    3) 매칭 그래프
      각각의 데이터 매칭후 매칭 구분 <br>
      ex) 완벽일치<br>
