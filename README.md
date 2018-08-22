@@ -7,8 +7,8 @@ A simulated draft in Korea Baseball League in 2018
 
 * [2017hitter.csv](#sukku04/KBO_Mock_Draft/2017hitter.csv) (규정타석충족 타자)
 * [2017pitcher.csv](#sukku04/KBO_Mock_Draft/2017pitcher.csv) (규정이닝충족 투수)
-* [2017notqualified_hitter.csv](#sukku04/KBO_Mock_Draft/2017notqualified_hitter.csv) (규정타석미충족 타자)
-* [2017notqualified_pitcher.csv](#hitter.ipynb) (규정타석미충족 투수)
+* [pitcher_draft.csv](#sukku04/KBO_Mock_Draft/2017notqualified_hitter.csv) (실제2차드래프트-)
+* [hitter_draft.csv](#hitter.ipynb) (실제2차드래프트-타자)
 
 ** source : Korean highschool baseball league in 2017 on Korea Baseball Softball Association <br>
 http://www.korea-baseball.com/record/record/team_record?kind_cd=31&lig_idx=&group_no=&part_no=&season=2018&club_idx=190&player_type=2&group_part_idx=
