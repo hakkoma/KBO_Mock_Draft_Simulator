@@ -203,13 +203,13 @@ https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c
 ## 리포트 섹션
  * **비교 방법**<br>
    <br>
-   1) For matching 이용<br>
+   * For matching 이용<br>
      For 문을 이용하여 실제 데이터(드래프트 결과)의 이름, 구해진 데이터(Project 결과)의 이름을 매칭<br>
      카운트 후 퍼센트로 전개<br>
      Accuracy 측정 가능, 그후, 기준 지표비교 가능<br>
      ex)fWAR 혹은 wOBA 와 같이 비교가능.<br>
      <br>
-   2) Boolean 값 매칭 graph<br>
+   * Boolean 값 매칭 graph<br>
      각각의 데이터 매칭후 True or False 혹은 0 or 1 으로 <br>
      나타내어 visualise 함.<br>
      **update 필요**<br>
@@ -217,7 +217,7 @@ https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c
      ![graph](https://user-images.githubusercontent.com/37870412/44184786-33476d80-a143-11e8-8595-fcdbcd18e220.JPG)<br>
      *파이 그래프 예제 1*<br>
      <br>
-   3) 매칭 그래프<br>
+   * 매칭 그래프<br>
      각각의 데이터 매칭후 매칭 구분 <br>
      ex) 완벽일치<br>
          불일치 (순서 불일치, 실제 데이터 없음)
@@ -226,19 +226,19 @@ https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c
      ![graph2](https://user-images.githubusercontent.com/37870412/44184800-4b1ef180-a143-11e8-825d-361d77bac8ca.JPG)<br>
      *파이 그래프 예제 2*<br>
      <br>
-    4) 지표 비교 매칭<br>
-    현재 선수 지표의 경우 WAR과 각 투수와타자 지표로 이루어짐.<br>
-    위의 지표로 아래의 데이터 도출 가능.<br>
-    <br>
-    Group 1<br>
-    Top 30 WAR 타자 대비 실제 드래프트 데이터 <br>
-    Top 30 WOBA 타자 대비 실제 드래프트 데이터 <br>
-    <br>
-    Group 2<br>
-    Top 30 WAR 투수 대비 실제 드래프트 데이터 <br>
-    Top 30 FIP 투수 대비 실제 드래프트 데이터 <br>
-    <br>
-    위의 두 그룹으로 도출하여 각 정확도 비교 후, 드래프트시 중요 지표 도출 가능.<br>
+   * 지표 비교 매칭<br>
+     현재 선수 지표의 경우 WAR과 각 투수와타자 지표로 이루어짐.<br>
+     위의 지표로 아래의 데이터 도출 가능.<br>
+     <br>
+     Group 1<br>
+     Top 30 WAR 타자 대비 실제 드래프트 데이터 <br>
+     Top 30 WOBA 타자 대비 실제 드래프트 데이터 <br>
+     <br>
+     Group 2<br>
+     Top 30 WAR 투수 대비 실제 드래프트 데이터 <br>
+     Top 30 FIP 투수 대비 실제 드래프트 데이터 <br>
+     <br>
+     위의 두 그룹으로 도출하여 각 정확도 비교 후, 드래프트시 중요 지표 도출 가능.<br>
      
     
     
