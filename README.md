@@ -160,12 +160,18 @@ https://seanjtaylor.github.io/learning-the-draft/
 https://www.geeksforgeeks.org/linear-regression-python-implementation/ <br>
 https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c928425168f9 <br>
 
-## Assumptions
+## Assumptions (28.08.18 선수항목 updated)
  * **가정 항목** <br>
    **선수**<br>
    드래프트의 경우 고교 신인, 대학 신인, 해외 드래프트 신청 선수로 이루어 지나, <br>
    현재 데이터의 경우, 대학 리그 선수의 데이터가 없음. <br>
    따라서 TOP30 의 선수는 고교 졸업 선수 한정으로 제한 한다.<br>
+   <br>
+   **선수 데이터 제한사항**<br>
+   현재 기본데이터의 경우 고교 리그의 데이터를 지표로 하고 있음.<br>
+   하지만 고교 리그 데이터의 경우 학년 항목, 즉 고교 드래프트 대상자가 아닌 선수<br>
+   (1학년, 2학년 선수)등이 포함 되어 있음. <br>
+   Data cleaning 과정에서 고교 1,2학년은 제외 되어야 하지만 현재 데이터 상으로는 작업이 불가.<br>
    <br>
    **드래프트**<br>
    드래프트 방식의 경우, 각 구단이 전년도 성적순으로 지명을 하며, <br>
@@ -175,6 +181,12 @@ https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c
    현재 보유한 데이터는, 각 구단의 포지션 선호도, 투타 선호도를 나타낼수 없다. <br>
    따라서 실제 2018 드래프트의 자료를 비교하여 계산된 WAR에 대입한 결과로 대채한다. <br>
    <br>
+   **드래프트 데이터 제한사항**<br>
+   현재 드래프트 데이터의 경우, 고교 선수 드래프트 지명 대상자가 모두포함 되어있음.<br>
+   실제 드래프트 지명자의 경우, 대학진학, 혹은 해외 진출에 의해 지명 취소 혹은 지명 포기가 가능.<br>
+   따라서 데이터 정확도에서 한계를 보임 <br>
+   <br>
+   
    **WAR**<br>
    WAR의 경우 fWAR (fangraph WAR)를 기준으로 하며 타자는 Statiz 를 기준으로 하여 각 WAR을 통합하여 비교한다. <br>
    허나 실제 WAR의 값의 경우, 투수의 이닝 으로 인해 타자의 WAR이 상대적으로 투수에 비해 높다<br>
@@ -182,6 +194,7 @@ https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c
    허나, 현재 데이터 상으로 보정이 불가능 하며, 파크 팩터의 경우또한 KBO의 경우, <br> 
    잠실 구장을 제외한 나머지 구장은 크게 관여 하지 않아 대부분 1로 대체한다. <br>
    또한 고교 야구의 경우, 파크 팩터의 간섭의 더욱 적어 위와 같이 1로 대체한다. <br>
+   <br>
    *관련 자료* <br> 
    http://old.statiz.co.kr/glossary.php?opt=1&sopt=2<br>
    https://frhyme.github.io/baseball/baseball-parkfactor/<br>
@@ -194,14 +207,16 @@ https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c
      카운트 후 퍼센트로 전개<br>
      Accuracy 측정 가능, 그후, 기준 지표비교 가능<br>
      ex)fWAR 혹은 wOBA 와 같이 비교가능.<br>
-   2) Boolean 값 매칭 graph
+     <br>
+   2) Boolean 값 매칭 graph<br>
      각각의 데이터 매칭후 True or False 혹은 0 or 1 으로 <br>
      나타내어 visualise 함.<br>
      **update 필요**<br>
      파이 그래프 매칭 그래프화 후 % 계산<br>
      ![graph](https://user-images.githubusercontent.com/37870412/44184786-33476d80-a143-11e8-8595-fcdbcd18e220.JPG)<br>
      *파이 그래프 예제 1*<br>
-   3) 매칭 그래프
+     <br>
+   3) 매칭 그래프<br>
      각각의 데이터 매칭후 매칭 구분 <br>
      ex) 완벽일치<br>
          불일치 (순서 불일치, 실제 데이터 없음)
@@ -209,6 +224,25 @@ https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c
      조금더 구체적인 비교 가능.<br>
      ![graph2](https://user-images.githubusercontent.com/37870412/44184800-4b1ef180-a143-11e8-825d-361d77bac8ca.JPG)<br>
      *파이 그래프 예제 2*<br>
+     <br>
+    4) 지표 비교 매칭<br>
+    현재 선수 지표의 경우 WAR과 각 투수와타자 지표로 이루어짐.<br>
+    위의 지표로 아래의 데이터 도출 가능.<br>
+    <br>
+    Group 1<br>
+    Top 30 WAR 타자 대비 실제 드래프트 데이터 <br>
+    Top 30 WOBA 타자 대비 실제 드래프트 데이터 <br>
+    <br>
+    Group 2<br>
+    Top 30 WAR 투수 대비 실제 드래프트 데이터 <br>
+    Top 30 FIP 투수 대비 실제 드래프트 데이터 <br>
+    <br>
+    위의 두 그룹으로 도출하여 각 정확도 비교 후, 드래프트시 중요 지표 도출 가능.<br>
+     
+    
+    
+    
+     
 
 
 
