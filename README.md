@@ -202,6 +202,7 @@ https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c
 
 ## 리포트 섹션
  * **비교 방법**<br>
+   <br>
    1) For matching 이용<br>
      For 문을 이용하여 실제 데이터(드래프트 결과)의 이름, 구해진 데이터(Project 결과)의 이름을 매칭<br>
      카운트 후 퍼센트로 전개<br>
